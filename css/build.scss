@@ -1,0 +1,30 @@
+.build {
+  // .build__container
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 150px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 425px) {
+  .build {
+    // .build__container
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 300px;
+      margin: 0 auto;
+      min-height: 300px;
+      margin-bottom: 50px;
+    }
+  }
+}

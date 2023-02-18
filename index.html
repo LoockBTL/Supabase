@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/supabase-icon.png" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/dash.css" />
+    <link rel="stylesheet" href="./css/api.css" />
+    <link rel="stylesheet" href="./css/auth.css" />
+    <link rel="stylesheet" href="./css/build.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <!-- https://www.figma.com/file/eZu0NoY7o1ca4WCftUuSAN/Supabase?node-id=1%3A2&t=18JeGUfU2KpxRPYl-0 -->
+    <title>Supabase</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="./img/Supabase.png" alt="icon" class="nav__icon" />
+      <div class="nav__menu">
+        <div id="burger-button" class="nav__burger">
+          <span></span>
+        </div>
+        <div id="burger-container" class="nav__container">
+          <div class="nav__container-left">
+            <a href="#" class="global__link nav__link-left">Product</a>
+            <a href="#" class="global__link nav__link-left">Developers</a>
+            <a href="#" class="global__link nav__link-left">Beta</a>
+            <a href="#" class="global__link nav__link-left">Pricing</a>
+          </div>
+          <div class="nav__container-right">
+            <a href="#" class="global__button-little">Start your project</a>
+            <a href="#" class="global__link">Sign in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="main__top">
+        <div class="main__top-left">
+          <div class="main__top-storage">
+            <img
+              src="./img/inter-1.png"
+              alt="storage"
+              class="main__storage-img"
+            />
+            <div class="global__h3">Storage</div>
+          </div>
+          <div class="main__top-text">
+            <div class="global__h1-bold">Store and serve</div>
+            <div class="global__h1-bold">any type of digital content</div>
+            <br />
+            <br />
+            <div class="global__text">
+              An open source Object store service with unlimited scalability,
+              for any file type.
+            </div>
+            <br />
+            <div class="global__text">
+              With custom policies and permissions that are familiar and easy to
+              implement.
+            </div>
+            <br />
+            <br />
+            <a href="#" class="global__button main__button">Start a project</a>
+          </div>
+        </div>
+        <div class="main__top-right">
+          <img src="./img/acmegram.png" alt="acmegram" class="main__top-img" />
+        </div>
+      </div>
+      <div class="main__bottom">
+        <div class="main__bottom-column">
+          <div class="main__bottom-1icons">
+            <img src="./img/inter-1.png" alt="inter-1.png" />
+            <img src="./img/cross.png" alt="cross" />
+            <img src="./img/inter-2.png" alt="inter-2.png" />
+            <img src="./img/cross.png" alt="cross" />
+            <img src="./img/inter-3.png" alt="inter-3.png" />
+          </div>
+          <br />
+          <div class="global__h3">Interoperable</div>
+          <br />
+          <div class="global__h3">
+            Integrates well with the rest of Supabase ecosystem, including Auth
+            and Postgres.
+          </div>
+        </div>
+        <div class="main__bottom-column">
+          <div class="main__bottom-2icons">
+            <svg
+              class="main__bottom-2svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.5 17.5V8.75"
+                stroke="#A2A2A2"
+                stroke-width="0.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.75 17.5V3.5"
+                stroke="#A2A2A2"
+                stroke-width="0.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M5.25 17.5V14"
+                stroke="#A2A2A2"
+                stroke-width="0.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <br />
+          <div class="global__h3">Lightning fast</div>
+          <br />
+          <div class="global__h3">
+            Thin API server layer that leverages Postgres' permissions and
+            performance.
+          </div>
+        </div>
+        <div class="main__bottom-column">
+          <div class="main__bottom-3icons">
+            <svg
+              class="main__bottom-3svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.875 9.625L10.5 12.25L19.25 3.5"
+                stroke="#A1A1A1"
+                stroke-width="0.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18.375 10.5V16.625C18.375 17.0891 18.1906 17.5342 17.8624 17.8624C17.5342 18.1906 17.0891 18.375 16.625 18.375H4.375C3.91087 18.375 3.46575 18.1906 3.13756 17.8624C2.80937 17.5342 2.625 17.0891 2.625 16.625V4.375C2.625 3.91087 2.80937 3.46575 3.13756 3.13756C3.46575 2.80937 3.91087 2.625 4.375 2.625H14"
+                stroke="#A1A1A1"
+                stroke-width="0.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <br />
+          <div class="global__h3">Dependable</div>
+          <br />
+          <div class="global__h3">
+            Enterprise-level scalability and durability.
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="dash">
+      <div class="dash__top">
+        <div class="global__h1-normal">
+          Sleek dashboard for managing your media
+        </div>
+        <br />
+        <div class="global__text">
+          A complete Object Explorer so that any of your team can use.
+        </div>
+        <br />
+        <div class="global__text">
+          Drag and drop uploading, moving objects, and multiple object
+          selection. As easy as working on your desktop.
+        </div>
+      </div>
+      <div class="dash__bottom">
+        <div class="dash__bottom-left">
+          <div class="dash__left-buttons">
+            <a href="#" class="global__slider-button global__slider-active"
+              >File previews</a
+            >
+            <a href="#" class="global__slider-button">Column view</a>
+            <a href="#" class="global__slider-button">List view</a>
+            <a href="#" class="global__slider-button">Multi select actions</a>
+            <a href="#" class="global__slider-button">Path navigator</a>
+          </div>
+          <div class="dash__left-bottom">
+            <img src="./img/dashboard.png" alt="" class="dash__bottom-img" />
+          </div>
+        </div>
+        <div class="dash__bottom-right">
+          <div class="dash__right-first">
+            <div class="global__h3">File previews</div>
+            <br />
+            <div class="global__text">
+              Preview any media type, including video and audio.
+            </div>
+            <br />
+            <br />
+            <div class="global__h3">Check out our example app</div>
+          </div>
+          <div class="dash__right-second">
+            <div class="global__created-title">Profile management example</div>
+            <div class="global__created-text">
+              Update a user account with public profile information, including
+              uploading a profile image.
+            </div>
+            <br />
+            <div class="dash__right-created">
+              <div class="global__created-footer">Created by:</div>
+              <img
+                src="./img/supabase-icon.png"
+                alt="icon"
+                class="dash__right-img"
+              />
+              <div class="global__created-text">supabase</div>
+            </div>
+          </div>
+          <div class="dash__right-third">
+            <div class="global__created-footer">nextjs-ts-user-management</div>
+            <a href="#" class="dash__right-button">Deploy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="api">
+      <div class="api__left">
+        <div class="api__left-top">
+          <div class="global__h1-normal">Simple and convenient APIs</div>
+          <br />
+          <div class="global__text">
+            Built from the ground-up for interoperable authentication.
+          </div>
+          <br />
+          <div class="global__text">
+            Fast and easy to implement using our powerful library clients. Asset
+            optimization and image transformation coming soon!
+          </div>
+        </div>
+        <div class="api__left-bottom">
+          <div class="api__bottom-colomn">
+            <div class="api__bottom-icon">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.375 10.9813C6.10449 9.5408 8.28415 8.75195 10.535 8.75195C12.7858 8.75195 14.9655 9.5408 16.695 10.9813"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M1.24249 7.87488C3.79961 5.62085 7.09125 4.3772 10.5 4.3772C13.9087 4.3772 17.2004 5.62085 19.7575 7.87488"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.46375 14.0961C8.35205 13.465 9.41471 13.126 10.5044 13.126C11.594 13.126 12.6567 13.465 13.545 14.0961"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.5 17.5H10.5088"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="global__h3">CDN integration</div>
+            <br />
+            <div class="global__text">
+              Serve from the edge to reduce latency.
+            </div>
+            <br />
+            <div class="api__comming">Coming soon</div>
+          </div>
+          <div class="api__bottom-colomn">
+            <div class="api__bottom-icon">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 2.625H18.375V7"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 17.5L18.375 2.625"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.375 14V18.375H14"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13.125 13.125L18.375 18.375"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 3.5L7.875 7.875"
+                  stroke="#A1A1A1"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="global__h3">Auto transformation & optimisation</div>
+            <br />
+            <div class="global__text">
+              Resize and compress your media before you serve it.
+            </div>
+            <br />
+            <div class="api__comming">Coming soon</div>
+          </div>
+        </div>
+      </div>
+      <div class="api__right">
+        <div class="api__right-buttons">
+          <a href="#" class="global__slider-button global__slider-active"
+            >Upload a file</a
+          >
+          <a href="#" class="global__slider-button">Download a file</a>
+          <a href="#" class="global__slider-button">List files</a>
+          <a href="#" class="global__slider-button">Move and rename files</a>
+          <a href="#" class="global__slider-button">Delete files</a>
+        </div>
+        <div class="api__right-code">
+          <div class="code__container">
+            <div class="code__column">
+              <div class="code__number">1</div>
+              <div class="code__content">
+                <button class="code__copy">Copy</button>
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">2</div>
+              <div class="code__content">
+                <span class="code__content-comment">
+                  // Upload an image to the "avatars" bucket
+                </span>
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">3</div>
+              <div class="code__content">
+                <span class="code__content-blue">const</span> spaceCat =
+                event.target.files[0]
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">4</div>
+              <div class="code__content">
+                <span class="code__content-blue">const</span>{ data, error } =
+                <span class="code__content-blue">await</span> supabase
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">5</div>
+              <div class="code__content">.storage</div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">6</div>
+              <div class="code__content">
+                .from(<span class="code__content-green">'avatars'</span>)
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">7</div>
+              <div class="code__content">
+                .upload(<span class="code__content-green">'space-cat.png'</span
+                >, spaceCat)
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">8</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">9</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">10</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">11</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">12</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">13</div>
+              <div class="code__content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="auth">
+      <div class="auth__left">
+        <div class="global__h1-normal">Integrates natively</div>
+        <div class="global__h1-normal">with Supabase Auth</div>
+        <br />
+        <div class="global__text">
+          Using Postgres Row Level Security to create Object access rules.
+        </div>
+        <br />
+        <br />
+        <div class="global__text">
+          Storage Authorization is built around Postgres so that you can use any
+          combination of SQL, Postgres functions, and even your own metadata to
+          write policies.
+        </div>
+        <a href="#" class="auth__left-button">Expore documentation</a>
+      </div>
+      <div class="auth__right">
+        <div class="auth__right-buttons">
+          <a href="#" class="global__slider-button global__slider-active"
+            >Public access to a bucket</a
+          >
+          <a href="#" class="global__slider-button"
+            >Public access to a folder
+          </a>
+          <a href="#" class="global__slider-button"
+            >Authenticated access to a bucket</a
+          >
+        </div>
+        <div class="auth__right-code">
+          <div class="code__container">
+            <div class="code__column">
+              <div class="code__number">1</div>
+              <div class="code__content">
+                <button class="code__copy">Copy</button>
+                <span class="code__content-blue">create policy</span>
+                <span class="code__content-green">"Public Access"</span>
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">2</div>
+              <div class="code__content">
+                <span class="code__content-blue">on</span> storage.objects
+                <span class="code__content-blue">for all</span>
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">3</div>
+              <div class="code__content">
+                <span class="code__content-blue">using</span>( bucket_id =
+                <span class="code__content-green">'avatars'</span>);
+              </div>
+            </div>
+            <div class="code__column">
+              <div class="code__number">4</div>
+              <div class="code__content"></div>
+            </div>
+            <div class="auth__code-down">
+              <div class="global__h3">Allow public CRUD access to a bucket</div>
+              <div class="auth__code-text">
+                This will allow any user access to the bucket named 'avatars'
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="build">
+      <div class="build__container">
+        <div class="global__h1-normal">
+          Build in a weekend, scale to millions
+        </div>
+        <a href="#" class="global__button">Start your project</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__left">
+          <div class="footer__left-icon">
+            <img
+              src="./img/Supabase.png"
+              alt="icon-footer"
+              class="footer__left-img"
+            />
+          </div>
+          <div class="footer__left-socials">
+            <svg
+              class="footer__left-svg"
+              width="20"
+              height="18"
+              viewBox="0 0 20 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.29 17.251C13.837 17.251 17.965 10.998 17.965 5.57596C17.965 5.39796 17.965 5.22096 17.953 5.04596C18.7562 4.46448 19.4493 3.74457 20 2.91996C19.2511 3.25196 18.4566 3.46972 17.643 3.56596C18.4996 3.05302 19.1408 2.24631 19.447 1.29596C18.6417 1.77384 17.7607 2.11069 16.842 2.29196C16.2234 1.63372 15.405 1.19779 14.5136 1.05166C13.6222 0.905532 12.7075 1.05736 11.9111 1.48363C11.1147 1.9099 10.4811 2.58683 10.1083 3.40962C9.7355 4.2324 9.64437 5.15514 9.849 6.03496C8.21759 5.9532 6.6216 5.52928 5.16465 4.79073C3.70769 4.05217 2.42233 3.01548 1.392 1.74796C0.867318 2.65116 0.706589 3.72038 0.942536 4.73792C1.17848 5.75547 1.79337 6.64483 2.662 7.22496C2.00926 7.20606 1.37063 7.03046 0.8 6.71296V6.76496C0.800389 7.71225 1.1284 8.63026 1.7284 9.36331C2.3284 10.0964 3.16347 10.5993 4.092 10.787C3.48781 10.9517 2.85389 10.9756 2.239 10.857C2.50116 11.6724 3.01168 12.3856 3.69913 12.8966C4.38658 13.4076 5.21657 13.6909 6.073 13.707C5.22212 14.3755 4.24779 14.8698 3.20573 15.1615C2.16367 15.4532 1.07432 15.5366 0 15.407C1.8766 16.6113 4.06019 17.2501 6.29 17.247"
+                fill="#A1A1A1"
+              />
+            </svg>
+            <svg
+              class="footer__left-svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017C2 16.442 4.865 20.197 8.839 21.521C9.339 21.613 9.521 21.304 9.521 21.038C9.521 20.801 9.513 20.17 9.508 19.335C6.726 19.94 6.139 17.992 6.139 17.992C5.685 16.834 5.029 16.526 5.029 16.526C4.121 15.906 5.098 15.918 5.098 15.918C6.101 15.988 6.629 16.95 6.629 16.95C7.521 18.48 8.97 18.038 9.539 17.782C9.631 17.135 9.889 16.694 10.175 16.444C7.955 16.191 5.62 15.331 5.62 11.493C5.62 10.4 6.01 9.505 6.649 8.805C6.546 8.552 6.203 7.533 6.747 6.155C6.747 6.155 7.587 5.885 9.497 7.181C10.3128 6.95851 11.1544 6.84519 12 6.844C12.85 6.848 13.705 6.959 14.504 7.181C16.413 5.885 17.251 6.154 17.251 6.154C17.797 7.533 17.453 8.552 17.351 8.805C17.991 9.505 18.379 10.4 18.379 11.493C18.379 15.341 16.04 16.188 13.813 16.436C14.172 16.745 14.491 17.356 14.491 18.291C14.491 19.629 14.479 20.71 14.479 21.038C14.479 21.306 14.659 21.618 15.167 21.52C17.1583 20.8521 18.8893 19.5753 20.1155 17.87C21.3416 16.1648 22.0009 14.1173 22 12.017C22 6.484 17.522 2 12 2Z"
+                fill="#A1A1A1"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__column">
+            <div class="global__footer-title">Product</div>
+            <a href="#" class="global__link">Database</a>
+            <a href="#" class="global__link">Authentication</a>
+            <a href="#" class="global__link">Storage</a>
+            <a href="#" class="global__link">Functions Coming soon</a>
+            <a href="#" class="global__link">Pricing</a>
+          </div>
+          <div class="footer__column">
+            <div class="global__footer-title">Resources</div>
+            <a href="#" class="global__link">Support</a>
+            <a href="#" class="global__link">Case Studies</a>
+            <a href="#" class="global__link">System Status</a>
+            <a href="#" class="global__link">Terms of service</a>
+          </div>
+          <div class="footer__column">
+            <div class="global__footer-title">Developers</div>
+            <a href="#" class="global__link">Documentation</a>
+            <a href="#" class="global__link">API Reference</a>
+            <a href="#" class="global__link">Guides</a>
+          </div>
+          <div class="footer__column">
+            <div class="global__footer-title">Company</div>
+            <a href="#" class="global__link">Blog</a>
+            <a href="#" class="global__link">Open Source</a>
+            <a href="#" class="global__link">Humans.txt</a>
+            <a href="#" class="global__link">Lawyers.txt</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-inc">© Supabase Inc</div>
+      </div>
+    </footer>
+    <script src="./js/burger.js"></script>
+  </body>
+</html>
